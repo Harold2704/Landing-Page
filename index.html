@@ -12,9 +12,9 @@
     <header class="navegacion">
         <nav>
             <ul class="contenido-navegacion">
-                <li><a href="./index.html">Nombre</a></li>
-                <li><a href="./inicio.html">Inicio</a></li>
-                <li><a href="./acerca.html">Nosotros</a></li>
+                <li><a href="#home">Nombre</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Nosotros</a></li>
                 <li><a href="#recompensas">Recompensas</a></li>
                 <li><a href="#noticias">Noticias</a></li>
                 <li><a href="#contactos">Contactos</a></li>
@@ -23,25 +23,30 @@
         </nav>
     </header>
     <main>
-        <section class="seccion-home">
+        <section id="home" class="seccion-home">
             <h2>Nombre</h2>
             <article class="img-home">
                 <img src="./imagenes/girasoles.jpg" alt="Esto es un girasol">
             </article>
         </section>
-        <section class="seccion-inicio">
-            <article class="img-inicio">
-                <img src="./imagenes/gota.png" alt="Esto es una gota">
-            </article>
-            <article>
-                <h2>NOMBRE</h2>
-                <h3>UN FUTURO VERDE EN TUS MANOS</h3>
-                <p>¡Bienvenido a EcoSaver, donde la sostenibilidad se encuentra con la acción! ¿Quieres ser parte de un
-                    movimiento global hacia un futuro más verde?</p>
-                <button class="boton-principal">Download</button>
-            </article>
+        <section id="inicio" class="seccion-inicio">
+            <h2>Inicio</h2>
+            <div class="inicio-container">
+                <article class="img-inicio">
+                    <img src="./imagenes/gota.png" alt="Esto es una gota">
+                </article>
+                <article>
+                    <h3>NOMBRE</h3>
+                    <h4>UN FUTURO VERDE EN TUS MANOS</h4>
+                    <p>¡Bienvenido a EcoSaver, donde la sostenibilidad se encuentra con la acción! ¿Quieres ser parte de
+                        un
+                        movimiento global hacia un futuro más verde?</p>
+                    <button class="boton-principal">Download</button>
+                </article>
+            </div>
+
         </section>
-        <section class="seccion-acerca">
+        <section id="acerca" class="seccion-acerca">
             <h2>Acerca de nosotros:</h2>
             <article class="acerca-item">
                 <div class="acerca-subitem">
@@ -52,10 +57,10 @@
                         donde todos sean defensores activos de la sostenibilidad.</p>
                 </div>
                 <div class="acerca-subitem">
-                    <img src="./imagenes/mision.png" alt="Imagen de misión">
+                    <img src="./imagenes/mision.jpg" alt="Imagen de misión">
                 </div>
             </article>
-            <article class="acerca-item">
+            <article id="acerca" class="acerca-item">
                 <div class="acerca-subitem">
                     <h3>VISIÓN</h3>
                     <p>Visualizamos un mundo donde comunidades se unen contra el desperdicio y la sobreexplotación de
@@ -64,11 +69,11 @@
                         un futuro más verde y equilibrado, acción a acción.</p>
                 </div>
                 <div class="acerca-subitem">
-                    <img src="./imagenes/vision.png" alt="Imagen de visión">
+                    <img src="./imagenes/vision.jpg" alt="Imagen de visión">
                 </div>
             </article>
         </section>
-        <section class="seccion-noticias">
+        <section id="noticias" class="seccion-noticias">
             <h2>Noticias actuales</h2>
             <div class="noticias-container">
                 <article class="noticias-item">
@@ -114,7 +119,29 @@
                     </aside>
                 </article>
             </div>
-
+        </section>
+        <section id="contacto"  class="seccion-contacto">
+            <h2>Puedes contactarme en</h2>
+            <div class="contacto-container">
+                <article class="item-contacto">
+                    <h3>Facebook</h3>
+                    <div>
+                        <img src="./imagenes/iconos/twit.png" alt="Facebook">
+                    </div>
+                </article>
+                <article class="item-contacto">
+                    <h3>Facebook</h3>
+                    <div>
+                        <img src="./imagenes/iconos/inst.png" alt="Facebook">
+                    </div>
+                </article>
+                <article class="item-contacto">
+                    <h3>Facebook</h3>
+                    <div>
+                        <img src="./imagenes/iconos/face.png" alt="Facebook">
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="footer-home">
